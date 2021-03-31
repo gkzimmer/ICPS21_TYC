@@ -3,4 +3,6 @@
 
 def find_avg(a,b,c,d,e,f):
     sum = a + b + c + d + e + f
-    return sum / 6
+
+    #The int() function is added in response to the third commit.
+    return int(sum / 6)
