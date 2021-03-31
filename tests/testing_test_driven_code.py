@@ -12,3 +12,11 @@ class TestAdd(unittest.TestCase):
         expected = 5
         result = test_driven_code.find_avg(0,0,0,10,10,10)
         self.assertEqual(expected,result)
+
+    #Now, let's try and test something slightly more advanced.
+    #We want to write code that will round to the nearest whole number, which
+    #we will test here.
+    def test_find_avg_whole(self):
+        expected = 5
+        result = test_driven_code.find_avg(1,0,0,10,10,10)
+        self.assertEqual(expected,result)
