@@ -4,11 +4,11 @@
 #number averages
 
 import unittest
-from my_package import test_driven_code
+from testing_code import test_driven_code
 
 class TestAdd(unittest.TestCase):
 
     def test_find_avg(self):
         expected = 5
-        result = test_driven_code.avg(1,1,1,10,10,10)
+        result = test_driven_code.find_avg(0,0,0,10,10,10)
         self.assertEqual(expected,result)
