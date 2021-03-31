@@ -26,5 +26,5 @@ class TestAdd(unittest.TestCase):
     #Now, let's test another function, this time finding the range of values
     def test_range(self):
         expected = 100
-        result = test_drive_code.find_range(0,10,20,30,40,100)
+        result = test_driven_code.find_range(0,10,20,30,40,100)
         self.assertEqual(expected,result)
